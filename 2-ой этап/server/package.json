@@ -1,0 +1,22 @@
+{
+  "name": "movies-server",
+  "version": "1.0.0",
+  "description": "http movies server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "author": "Andrey Koshlan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "pg": "^8.10.0",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "nodemon": "^2.0.21"
+  }
+}
